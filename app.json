@@ -1,11 +1,13 @@
 {
   "pages": [
+    "pages/searchResult/index",
     "pages/index/index",
     "pages/activity/index",
     "pages/study/index",
     "pages/message/index",
     "pages/home/index",
     "pages/login/index",
+    "pages/search/index",
     "pages/certification/index"
   ],
   "window": {

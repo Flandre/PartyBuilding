@@ -1,0 +1,42 @@
+<view class="container">
+  <!--搜索为空-->
+  <!--<view class="empty-search">-->
+    <!--<image src="images/emptyIcon.png" class="icon"/>-->
+    <!--<text class="info">暂无相关内容</text>-->
+  <!--</view>-->
+  <!--文章列表-->
+  <view class="article-list">
+
+    <view class="article-item">
+      <view class="main-info">
+        <text class="title">这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题</text>
+        <view class="title-img-box">
+
+        </view>
+      </view>
+      <view class="data-scource">
+        <view class="keywords">
+          <text class="keyword-item">这是关键词</text>
+          <text class="keyword-item">这是关键词</text>
+        </view>
+        <text class="time">7月14日</text>
+      </view>
+    </view>
+
+    <view class="article-item">
+      <view class="main-info">
+        <text class="title">这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题</text>
+        <!--<view class="title-img-box">-->
+
+        <!--</view>-->
+      </view>
+      <view class="data-scource">
+        <view class="keywords">
+          <text class="keyword-item">这是关键词</text>
+          <text class="keyword-item">这是关键词</text>
+        </view>
+        <text class="time">7月14日</text>
+      </view>
+    </view>
+  </view>
+</view>

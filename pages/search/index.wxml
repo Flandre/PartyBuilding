@@ -1,0 +1,41 @@
+<view class="container">
+  <view class="search-container">
+    <view class="search-box">
+      <image src="images/search-icon.png" class="search-icon"/>
+      <input placeholder="请输入搜索关键字" type="text" class="input" placeholder-class="input-ph" confirm-type="search" focus="true" />
+    </view>
+    <text class="cancel">取消</text>
+  </view>
+  <view class="tag-group">
+    <text class="group-title">热点关注</text>
+    <view class="tag-list">
+      <view class="tag-item">
+        <text class="tag">这是标签</text>
+      </view>
+      <view class="tag-item">
+        <text class="tag">这是</text>
+      </view>
+      <view class="tag-item">
+        <text class="tag">这是标签标签</text>
+      </view>
+      <view class="tag-item">
+        <text class="tag">这是个标签</text>
+      </view>
+      <view class="tag-item">
+        <text class="tag">这是标签</text>
+      </view>
+      <view class="tag-item">
+        <text class="tag">这是</text>
+      </view>
+      <view class="tag-item">
+        <text class="tag">这是标签标签</text>
+      </view>
+      <view class="tag-item">
+        <text class="tag">这是个标签</text>
+      </view>
+      <view class="tag-item">
+        <text class="tag">这是标签</text>
+      </view>
+    </view>
+  </view>
+</view>
