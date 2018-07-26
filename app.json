@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/activity/index",
+    "pages/study/index",
+    "pages/message/index",
+    "pages/home/index",
+    "pages/login/index",
+    "pages/certification/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#E60012",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "#fff"
+  },
+  "tabBar": {
+    "color": "#9B9B9B",
+    "backgroundColor": "#FFFFFF",
+    "selectedColor": "#E60012",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/tabbar/indexIcon.png",
+        "selectedIconPath": "images/tabbar/indexIcon-active.png"
+      },
+      {
+        "pagePath": "pages/activity/index",
+        "text": "活动",
+        "iconPath": "images/tabbar/activeIcon.png",
+        "selectedIconPath": "images/tabbar/activeIcon-active.png"
+      },
+      {
+        "pagePath": "pages/study/index",
+        "text": "学习",
+        "iconPath": "images/tabbar/studyIcon.png",
+        "selectedIconPath": "images/tabbar/studyIcon-active.png"
+      },
+      {
+        "pagePath": "pages/message/index",
+        "text": "通知",
+        "iconPath": "images/tabbar/messageIcon.png",
+        "selectedIconPath": "images/tabbar/messageIcon-active.png"
+      },
+      {
+        "pagePath": "pages/home/index",
+        "text": "我的",
+        "iconPath": "images/tabbar/homeIcon.png",
+        "selectedIconPath": "images/tabbar/homeIcon-active.png"
+      }
+    ]
+  }
+}

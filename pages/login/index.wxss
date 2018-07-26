@@ -1,0 +1,36 @@
+.login-tip {
+	width: 332rpx;
+	height: 80rpx;
+	border-bottom: 1rpx solid #DBDBDB;
+	position: relative;
+	margin: 0 auto;
+	margin-bottom: 60rpx;
+}
+.login-tip .login-text {
+	display: block;
+	width: 172rpx;
+	font-size: 28rpx;
+	line-height: 40rpx;
+	background: #f4f4f4;
+	color: #888888;
+	text-align: center;
+	position: absolute;
+	bottom: -20rpx;
+	left: 80rpx;
+}
+.login-btn {
+	width: 670rpx;
+	background: #1AAD19;
+	color: #fff;
+	border-color: #1AAD19;
+}
+.login-btn .btn-text{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.login-btn .btn-text .icon{
+	width: 46rpx;
+	height: 40rpx;
+	margin-right: 20rpx;
+}

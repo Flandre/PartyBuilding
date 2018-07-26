@@ -1,0 +1,56 @@
+<view class="container">
+  <!--顶部导航-->
+  <view class="top-nav-container">
+    <scroll-view scroll-x class="nav-scroll">
+      <text class="scroll-item active">最新发布</text>
+      <text class="scroll-item">最新发布</text>
+      <text class="scroll-item">最新发布</text>
+      <text class="scroll-item">最新发布</text>
+      <text class="scroll-item">最新发布</text>
+      <text class="scroll-item">最新发布</text>
+      <text class="scroll-item">最新发布</text>
+      <text class="scroll-item">最新发布</text>
+    </scroll-view>
+    <image src="images/search-btn.png" class="search-btn" />
+  </view>
+  <!--文章列表-->
+  <view class="article-list">
+
+    <view class="article-item">
+      <view class="main-info">
+        <text class="title">这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题</text>
+        <view class="title-img-box">
+
+        </view>
+      </view>
+      <view class="data-scource">
+        <view class="keywords">
+          <text class="keyword-item">这是关键词</text>
+          <text class="keyword-item">这是关键词</text>
+        </view>
+        <text class="time">7月14日</text>
+      </view>
+    </view>
+
+    <view class="article-item">
+      <view class="main-info">
+        <text class="title">这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题</text>
+        <!--<view class="title-img-box">-->
+
+        <!--</view>-->
+      </view>
+      <view class="data-scource">
+        <view class="keywords">
+          <text class="keyword-item">这是关键词</text>
+          <text class="keyword-item">这是关键词</text>
+        </view>
+        <text class="time">7月14日</text>
+      </view>
+    </view>
+  </view>
+  <!--底部导航-->
+  <view class="bottom-nav">
+
+  </view>
+
+</view>
