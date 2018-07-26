@@ -1,6 +1,5 @@
 {
   "pages": [
-    "pages/searchResult/index",
     "pages/index/index",
     "pages/activity/index",
     "pages/study/index",
@@ -8,7 +7,9 @@
     "pages/home/index",
     "pages/login/index",
     "pages/search/index",
-    "pages/certification/index"
+    "pages/searchResult/index",
+    "pages/certification/index",
+    "pages/articleDetail/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -1,0 +1,109 @@
+.top-panel {
+	padding: 40rpx;
+	background: #fff;
+}
+.top-panel .main-info{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30rpx;
+}
+.top-panel .main-info .title{
+	font-size: 36rpx;
+	color: #333;
+	line-height: 58rpx;
+	max-height: 116rpx;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	text-overflow: ellipsis;
+	-webkit-box-orient: vertical;
+}
+.top-panel .data-scource {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	overflow: hidden;
+	padding-bottom: 20rpx;
+	border-bottom: 1px solid #dbdbdb;
+}
+.top-panel .data-scource .keywords{
+	overflow: hidden;
+}
+.top-panel .data-scource .keywords .keyword-item{
+	font-size: 24rpx;
+	color: #E60012;
+	line-height: 36rpx;
+	padding: 0 5rpx;
+	border: 1rpx solid #E60012;
+	margin-right: 20rpx;
+	border-radius: 4rpx;
+	float: left;
+}
+.top-panel .data-scource .keywords .keyword-item:last-child{
+	margin-right: 0;
+}
+.top-panel .data-scource .time{
+	font-size: 24rpx;
+	color: #9B9B9B;
+}
+.top-panel .read-container{
+	margin-top: 20rpx;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.top-panel .read-container .read-users {
+	overflow: hidden;
+	white-space: nowrap;
+	height: 32rpx;
+}
+.top-panel .read-container .read-users .user-avatar{
+	display: block;
+	float: left;
+	width: 32rpx;
+	height: 32rpx;
+	border-radius: 16rpx;
+	margin-right: 10rpx;
+}
+.top-panel .read-container .read-users .user-avatar:last-child{
+	margin-right: 0;
+}
+.top-panel .read-container .read-info {
+	font-size: 24rpx;
+	color: #9B9B9B;
+	flex-shrink: 0;
+	 margin-left: 10rpx;
+}
+.article-content {
+	padding: 20rpx 40rpx;
+	background: #fff;
+	color: #333;
+}
+.article-content .p{
+	display: block;
+	font-size: 28rpx;
+	line-height: 34rpx;
+	margin-bottom: 30rpx;
+}
+.article-content .h1{
+	display: block;
+	font-size: 36rpx;
+	line-height: 44rpx;
+	margin-top: 60rpx;
+	margin-bottom: 30rpx;
+	font-weight: bold;
+}
+.article-content .h2{
+	display: block;
+	font-size: 32rpx;
+	line-height: 50rpx;
+	margin-top: 40rpx;
+	margin-bottom: 30rpx;
+	font-weight: bold;
+}
+.article-content .image{
+	display: block;
+	width: 100%;
+	margin-top: 40rpx;
+	margin-bottom: 40rpx;
+}

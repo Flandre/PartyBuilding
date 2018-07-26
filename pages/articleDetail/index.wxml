@@ -1,0 +1,40 @@
+<view class="container">
+  <view class="top-panel">
+    <view class="main-info">
+      <text class="title">这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题</text>
+    </view>
+    <view class="data-scource">
+      <view class="keywords">
+        <text class="keyword-item">这是关键词</text>
+        <text class="keyword-item">这是关键词</text>
+      </view>
+      <text class="time">7月14日</text>
+    </view>
+    <view class="read-container">
+      <view class="read-users">
+        <image src="images/user-avatar.png" class="user-avatar"/>
+        <image src="images/user-avatar.png" class="user-avatar"/>
+        <image src="images/user-avatar.png" class="user-avatar"/>
+        <image src="images/user-avatar.png" class="user-avatar"/>
+        <image src="images/user-avatar.png" class="user-avatar"/>
+        <image src="images/user-avatar.png" class="user-avatar"/>
+        <image src="images/user-avatar.png" class="user-avatar"/>
+        <image src="images/user-avatar.png" class="user-avatar"/>
+        <image src="images/user-avatar.png" class="user-avatar"/>
+        <image src="images/user-avatar.png" class="user-avatar"/>
+        <image src="images/user-avatar.png" class="user-avatar"/>
+      </view>
+      <text class="read-info">阅读 216</text>
+    </view>
+  </view>
+  <view class="article-content">
+    <text class="p">这是正文这是正文这是正文这是正文这是正文这是正文这是正文这是正文这是正文这是正文这是正文这是正文这是正文这是正文这是正文这是正文</text>
+    <text class="h1">这是一级标题</text>
+    <text class="p">这是正文这是正文这是正文这是正文这是正文这是正文这是正文这是正文这是正文这是正文这是正文这是正文这是正文这是正文这是正文这是正文</text>
+    <text class="p">这是正文这是正文这是正文这是正文这是正文这是正文这是正文这是正文这是正文这是正文这是正文这是正文这是正文这是正文这是正文这是正文</text>
+    <text class="h2">这是二级标题</text>
+    <text class="p">这是正文这是正文这是正文这是正文这是正文这是正文这是正文这是正文这是正文这是正文这是正文这是正文这是正文这是正文这是正文这是正文</text>
+    <image src="images/test.jpg" class="image" mode="widthFix"/>
+    <text class="p">这是正文这是正文这是正文这是正文这是正文这是正文这是正文这是正文这是正文这是正文这是正文这是正文这是正文这是正文这是正文这是正文</text>
+  </view>
+</view>
