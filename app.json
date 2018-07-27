@@ -1,7 +1,7 @@
 {
   "pages": [
-    "pages/index/index",
     "pages/activity/index",
+    "pages/index/index",
     "pages/study/index",
     "pages/message/index",
     "pages/home/index",
@@ -15,7 +15,8 @@
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#E60012",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "#fff"
+    "navigationBarTextStyle": "#fff",
+    "backgroundColor": "#aaa"
   },
   "tabBar": {
     "color": "#9B9B9B",

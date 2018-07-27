@@ -1,3 +1,121 @@
 <view class="container">
-  这是活动页面
+  <view class="activity-list">
+
+    <view class="list-item">
+      <view class="top-info">
+        <view class="type">
+          <image src="../../images/activity/missionIcon.png" class="icon" />
+          <text class="name">任务</text>
+        </view>
+        <text class="time">昨天</text>
+      </view>
+      <text class="title">这是标题这是标题这是标题这是标题这是标题这是标题</text>
+      <view class="source">
+        <text class="info initiator">发起：赵日天</text>
+        <text class="info time">时间：2018-07-01 9:00 至 2018-08-01 18:00</text>
+        <text class="info area">地点：断罪小学门前</text>
+      </view>
+      <view class="bottom-info">
+        <view class="tag-list">
+          <text class="tag-item">这是标签</text>
+          <text class="tag-item">这是标签</text>
+        </view>
+        <text class="status status-1">未开始</text>
+      </view>
+    </view>
+
+    <view class="list-item">
+      <view class="top-info">
+        <view class="type">
+          <image src="../../images/activity/missionIcon.png" class="icon" />
+          <text class="name">任务</text>
+        </view>
+        <text class="time">昨天</text>
+      </view>
+      <text class="title">这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题</text>
+      <view class="source">
+        <text class="info initiator">发起：赵日天</text>
+        <text class="info time">时间：2018-07-01 9:00 至 2018-08-01 18:00</text>
+        <text class="info area">地点：断罪小学门前</text>
+      </view>
+      <view class="bottom-info">
+        <view class="tag-list">
+          <text class="tag-item">这是标签</text>
+          <text class="tag-item">这是标签</text>
+        </view>
+        <text class="status">未开始</text>
+      </view>
+    </view>
+
+    <view class="list-item">
+      <view class="top-info">
+        <view class="type">
+          <image src="../../images/activity/meetingIcon.png" class="icon" />
+          <text class="name">会议</text>
+        </view>
+        <text class="time">昨天</text>
+      </view>
+      <text class="title">这是标题这是标题这是标题这是标题这是标题这是标题</text>
+      <view class="source">
+        <text class="info initiator">发起：赵日天</text>
+        <text class="info time">时间：2018-07-01 9:00 至 2018-08-01 18:00</text>
+        <text class="info area">地点：断罪小学门前</text>
+      </view>
+      <view class="bottom-info">
+        <view class="tag-list">
+          <text class="tag-item">这是标签</text>
+          <text class="tag-item">这是标签</text>
+        </view>
+        <text class="status highlight">未签到</text>
+      </view>
+    </view>
+
+    <view class="list-item">
+      <view class="top-info">
+        <view class="type">
+          <image src="../../images/activity/activityIcon.png" class="icon" />
+          <text class="name">活动</text>
+        </view>
+        <text class="time">昨天</text>
+      </view>
+      <text class="title">这是标题这是标题这是标题这是标题这是标题这是标题</text>
+      <view class="source">
+        <text class="info initiator">发起：赵日天</text>
+        <text class="info time">时间：2018-07-01 9:00 至 2018-08-01 18:00</text>
+        <text class="info area">地点：断罪小学门前</text>
+      </view>
+      <view class="bottom-info">
+        <view class="tag-list">
+          <text class="tag-item">这是标签</text>
+          <text class="tag-item">这是标签</text>
+        </view>
+        <text class="status highlight">进行中</text>
+      </view>
+    </view>
+
+    <view class="list-item">
+      <view class="top-info">
+        <view class="type">
+          <image src="../../images/activity/activityIcon.png" class="icon" />
+          <text class="name">活动</text>
+        </view>
+        <text class="time">昨天</text>
+      </view>
+      <text class="title">这是标题这是标题这是标题这是标题这是标题这是标题</text>
+      <view class="source">
+        <text class="info initiator">发起：赵日天</text>
+        <text class="info time">时间：2018-07-01 9:00 至 2018-08-01 18:00</text>
+        <text class="info area">地点：断罪小学门前</text>
+      </view>
+      <view class="bottom-info">
+        <view class="tag-list">
+          <text class="tag-item">这是标签</text>
+          <text class="tag-item">这是标签</text>
+        </view>
+        <text class="status">已结束</text>
+      </view>
+    </view>
+
+
+  </view>
 </view>
