@@ -37,4 +37,6 @@
     <image src="images/test.jpg" class="image" mode="widthFix"/>
     <text class="p">这是正文这是正文这是正文这是正文这是正文这是正文这是正文这是正文这是正文这是正文这是正文这是正文这是正文这是正文这是正文这是正文</text>
   </view>
+  <!--笔记入口-->
+  <image src="../../images/note-entry.png" class="note-entry" />
 </view>

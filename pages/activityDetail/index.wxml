@@ -1,0 +1,123 @@
+<view class="container">
+  <!--头部面板-->
+  <view class="top-panel">
+    <view class="top-info">
+      <view class="type">
+        <image src="../../images/activity/missionIcon.png" class="icon" />
+        <text class="name">任务</text>
+      </view>
+      <text class="time">昨天</text>
+    </view>
+    <text class="title">这是标题这是标题这是标题这是标题这是标题这是标题</text>
+    <text class="desc">这是描述是描述是描述是描述是描述是描述是描述是描述这是描述是描述是描述是描述是描述是描述是描述是描述</text>
+    <view class="bottom-info">
+      <view class="tag-list">
+        <text class="tag-item">这是标签</text>
+        <text class="tag-item">这是标签</text>
+      </view>
+      <text class="status status-1">未开始</text>
+    </view>
+    <view class="source">
+      <text class="info initiator">发起：赵日天</text>
+      <text class="info time">时间：2018-07-01 9:00 至 2018-08-01 18:00</text>
+      <text class="info area">地点：断罪小学门前</text>
+    </view>
+    <button class="check-in">签到</button>
+  </view>
+  <!--附件-->
+  <view class="panel attachment">
+    <text class="title">附件</text>
+    <view class="attachment-item">
+      <image class="icon" src="images/file-pdf-o.png"/>
+      <text class="filename">这是文件这是文件这是文件这是文件这是文件.pdf</text>
+    </view>
+    <view class="attachment-item">
+      <image class="icon" src="images/file-word-o.png"/>
+      <text class="filename">这是文件这是文件这是文件这是文件这是文件.doc</text>
+    </view>
+    <view class="attachment-item">
+      <image class="icon" src="images/file-excel-o.png"/>
+      <text class="filename">这是文件这是文件这是文件这是文件这是文件.xls</text>
+    </view>
+    <view class="attachment-item">
+      <image class="icon" src="images/file-image-o.png"/>
+      <text class="filename">这是文件这是文件这是文件这是文件这是文件.png</text>
+    </view>
+  </view>
+  <!--调查-->
+  <view class="panel func">
+    <text class="title">调查</text>
+    <view class="func-panel">
+      <image src="images/voteIcon.png" class="icon"/>
+      <view class="info">
+        <text class="name">读书心得调查</text>
+        <text class="time">截止时间：2018-07-30 9:00</text>
+      </view>
+    </view>
+    <image src="images/arrow-right.png" class="arrow-right"/>
+  </view>
+  <view class="panel func">
+    <text class="title">测评</text>
+    <view class="func-panel">
+      <image src="images/examIcon.png" class="icon"/>
+      <view class="info">
+        <text class="name">学习结果检测</text>
+        <text class="time">截止时间：2018-07-30 9:00</text>
+      </view>
+    </view>
+    <image src="images/arrow-right.png" class="arrow-right"/>
+  </view>
+  <!--步骤-->
+  <view class="panel step">
+    <text class="title">环节</text>
+    <view class="step-item">
+      <view class="title-container">
+        <image src="images/order.png" class="step-success-tag"/>
+        <text class="step-title">学习附件中的文档《关于新形势下党内政治于新形势下党内政治…</text>
+      </view>
+      <view class="info-list">
+        <text class="info-item">时间：2018-07-01 9:00 至 2018-08-01 18:00</text>
+        <text class="info-item">地点：小会议室</text>
+      </view>
+      <image src="images/arrow-right.png" class="arrow-right"/>
+    </view>
+    <view class="step-item">
+      <view class="title-container">
+        <view class="step-tag active">2</view>
+        <text class="step-title">学习附件中的文档《关于新形势下党内政治于新形势下党内政治…</text>
+      </view>
+      <view class="info-list">
+        <text class="info-item">时间：2018-07-01 9:00 至 2018-08-01 18:00</text>
+        <text class="info-item">地点：小会议室</text>
+      </view>
+      <image src="images/arrow-right.png" class="arrow-right"/>
+    </view>
+    <view class="step-item">
+      <view class="title-container">
+        <view class="step-tag">2</view>
+        <text class="step-title">学习附件中的文档《关于新形势下党内政治于新形势下党内政治…</text>
+      </view>
+      <view class="info-list">
+        <text class="info-item">时间：2018-07-01 9:00 至 2018-08-01 18:00</text>
+        <text class="info-item">地点：小会议室</text>
+      </view>
+      <image src="images/arrow-right.png" class="arrow-right"/>
+    </view>
+  </view>
+  <!--总结-->
+  <view class="panel summary">
+    <text class="title">总结</text>
+    <text class="item desc">学习附件中的文档《关于新形势下党内政治生活的若干准则》，包括重要精神理解、党章党规党纪。</text>
+    <view class="item attachment-item">
+      <image class="icon" src="images/file-excel-o.png"/>
+      <text class="filename">这是文件这是文件这是文件这是文件这是文件这是文件这是文件.xls</text>
+    </view>
+  </view>
+  <!--评论入口-->
+  <view class="comment-container">
+    <input placeholder="" type="number" class="input" placeholder-class="input-ph"></input>
+    <image src="images/commentBtn.png" class="comment-btn" />
+  </view>
+  <!--笔记入口-->
+  <image src="../../images/note-entry.png" class="note-entry" />
+</view>

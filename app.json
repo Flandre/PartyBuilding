@@ -1,7 +1,7 @@
 {
   "pages": [
-    "pages/activity/index",
     "pages/index/index",
+    "pages/activity/index",
     "pages/study/index",
     "pages/message/index",
     "pages/home/index",
@@ -9,14 +9,15 @@
     "pages/search/index",
     "pages/searchResult/index",
     "pages/certification/index",
-    "pages/articleDetail/index"
+    "pages/articleDetail/index",
+    "pages/activityDetail/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#E60012",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "#fff",
-    "backgroundColor": "#aaa"
+    "backgroundColor": "#f4f4f4"
   },
   "tabBar": {
     "color": "#9B9B9B",
