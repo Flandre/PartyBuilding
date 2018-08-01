@@ -13,4 +13,13 @@ page {
   position: fixed;
   right: 60rpx;
   bottom: 160rpx;
+  z-index: 1070;
+}
+.upload-entry {
+  width: 96rpx;
+  height: 96rpx;
+  position: fixed;
+  right: 60rpx;
+  bottom: 300rpx;
+  z-index: 1070;
 }

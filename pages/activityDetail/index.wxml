@@ -1,4 +1,13 @@
 <view class="container">
+  <!--评论入口-->
+  <view class="comment-container">
+    <input placeholder="" type="number" class="input" placeholder-class="input-ph"></input>
+    <image src="images/commentBtn.png" class="comment-btn" />
+  </view>
+  <!--笔记入口-->
+  <image src="../../images/note-entry.png" class="note-entry" />
+  <!--总结入口-->
+  <image src="../../images/upload-entry.png" class="upload-entry" />
   <!--头部面板-->
   <view class="top-panel">
     <view class="top-info">
@@ -22,7 +31,18 @@
       <text class="info time">时间：2018-07-01 9:00 至 2018-08-01 18:00</text>
       <text class="info area">地点：断罪小学门前</text>
     </view>
-    <button class="check-in">签到</button>
+    <button class="check-in">
+      <image src="images/checkinSuccess.png" class="icon"/>
+      <text class="text">已签到</text>
+    </button>
+    <button class="check-in">
+      <image src="images/checkinIcon.png" class="icon"/>
+      <text class="text">签到</text>
+    </button>
+    <view class="check-in-info">
+      <text class="info">已有20人签到</text>
+      <image src="images/arrow-right-checkin.png" class="icon"/>
+    </view>
   </view>
   <!--附件-->
   <view class="panel attachment">
@@ -46,22 +66,44 @@
   </view>
   <!--调查-->
   <view class="panel func">
-    <text class="title">调查</text>
+    <text class="title">投票</text>
     <view class="func-panel">
       <image src="images/voteIcon.png" class="icon"/>
       <view class="info">
-        <text class="name">读书心得调查</text>
+        <text class="name">民主投票</text>
         <text class="time">截止时间：2018-07-30 9:00</text>
       </view>
     </view>
     <image src="images/arrow-right.png" class="arrow-right"/>
   </view>
   <view class="panel func">
-    <text class="title">测评</text>
+    <text class="title">学习测评</text>
     <view class="func-panel">
       <image src="images/examIcon.png" class="icon"/>
       <view class="info">
         <text class="name">学习结果检测</text>
+        <text class="time">截止时间：2018-07-30 9:00</text>
+      </view>
+    </view>
+    <image src="images/arrow-right.png" class="arrow-right"/>
+  </view>
+  <view class="panel func">
+    <text class="title">民主评议</text>
+    <view class="func-panel">
+      <image src="images/democracyIcon.png" class="icon"/>
+      <view class="info">
+        <text class="name">党员民主评议</text>
+        <text class="time">截止时间：2018-07-30 9:00</text>
+      </view>
+    </view>
+    <image src="images/arrow-right.png" class="arrow-right"/>
+  </view>
+  <view class="panel func">
+    <text class="title">问卷调查</text>
+    <view class="func-panel">
+      <image src="images/researchIcon.png" class="icon"/>
+      <view class="info">
+        <text class="name">读书心得调查</text>
         <text class="time">截止时间：2018-07-30 9:00</text>
       </view>
     </view>
@@ -72,7 +114,7 @@
     <text class="title">环节</text>
     <view class="step-item">
       <view class="title-container">
-        <image src="images/order.png" class="step-success-tag"/>
+        <view class="step-tag">1</view>
         <text class="step-title">学习附件中的文档《关于新形势下党内政治于新形势下党内政治…</text>
       </view>
       <view class="info-list">
@@ -94,7 +136,7 @@
     </view>
     <view class="step-item">
       <view class="title-container">
-        <view class="step-tag">2</view>
+        <view class="step-tag">3</view>
         <text class="step-title">学习附件中的文档《关于新形势下党内政治于新形势下党内政治…</text>
       </view>
       <view class="info-list">
@@ -113,11 +155,94 @@
       <text class="filename">这是文件这是文件这是文件这是文件这是文件这是文件这是文件.xls</text>
     </view>
   </view>
-  <!--评论入口-->
-  <view class="comment-container">
-    <input placeholder="" type="number" class="input" placeholder-class="input-ph"></input>
-    <image src="images/commentBtn.png" class="comment-btn" />
+  <!--感想-->
+  <view class="panel impressions">
+    <text class="title">感想</text>
+    <view class="comment-list">
+      <view class="comment-item">
+        <image src="images/defaultAvatar.png" class="avatar"/>
+        <view class="comment-main">
+          <text class="user-name">张晓明</text>
+          <text class="comment-content">这是正文这是正文这是正文这是正文这是正文这是正文</text>
+          <view class="info-bar">
+            <text class="time">7-29 15:05</text>
+            <view class="source">
+              <view class="source-group">
+                <image src="../../images/replyIcon.png" class="icon" />
+              </view>
+              <view class="source-group">
+                <image src="../../images/likeIcon.png" class="icon" />
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="comment-item">
+        <image src="images/defaultAvatar.png" class="avatar"/>
+        <view class="comment-main">
+          <text class="user-name">张晓明</text>
+          <text class="comment-content">这是正文这是正文这是正文这是正文这是正文这是正文</text>
+          <view class="reply-list">
+            <view class="reply-item">
+              <text class="reply-name">李小刚: </text>
+              <text class="content">回复正文回复正文回复正文回复正文回复正文回复正文</text>
+            </view>
+            <view class="reply-item">
+              <text class="reply-name">李小刚: </text>
+              <text class="content">回复正文回复正文回复正文回复正文回复正文回复正文</text>
+            </view>
+          </view>
+          <view class="info-bar">
+            <text class="time">7-29 15:05</text>
+            <view class="source">
+              <view class="source-group">
+                <image src="../../images/replyIcon.png" class="icon" />
+                <text class="count">1</text>
+              </view>
+              <view class="source-group">
+                <image src="../../images/likeIcon.png" class="icon" />
+                <text class="count">3</text>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="comment-item">
+        <image src="images/defaultAvatar.png" class="avatar"/>
+        <view class="comment-main">
+          <text class="user-name">张晓明</text>
+          <text class="comment-content">这是正文这是正文这是正文这是正文这是正文这是正文</text>
+          <view class="reply-list">
+            <view class="reply-item">
+              <text class="reply-name">李小刚: </text>
+              <text class="content">回复正文回复正文回复正文回复正文回复正文回复正文</text>
+            </view>
+            <view class="reply-item">
+              <text class="reply-name">李小刚: </text>
+              <text class="content">回复正文回复正文回复正文回复正文回复正文回复正文</text>
+            </view>
+            <view class="reply-item">
+              <text class="more">共5条回复 ></text>
+            </view>
+          </view>
+          <view class="info-bar">
+            <text class="time">7-29 15:05</text>
+            <view class="source">
+              <view class="source-group">
+                <image src="../../images/replyIcon.png" class="icon" />
+                <text class="count">1</text>
+              </view>
+              <view class="source-group active">
+                <image src="../../images/likeIcon-active.png" class="icon" />
+                <text class="count">3</text>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="comment-item">
+        <text class="full">- 已无更多内容 -</text>
+      </view>
+    </view>
   </view>
-  <!--笔记入口-->
-  <image src="../../images/note-entry.png" class="note-entry" />
 </view>
