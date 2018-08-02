@@ -421,13 +421,21 @@
 	box-sizing: border-box;
 	flex-grow: 1;
 	padding: 0 30rpx;
-	font-size: 28rpx;
-	border-radius: 30rpx;
-
+	font-size: 24rpx;
+	border-radius: 8rpx;
+}
+.comment-container .input-ph {
+	color: #9B9B9B;
 }
 .comment-container .comment-btn{
-	width: 40rpx;
-	height: 40rpx;
-	margin-left: 25rpx;
+	color: #9B9B9B;
+	font-size: 28rpx;
+	margin-left: 30rpx;
+	/*width: 40rpx;*/
+	/*height: 40rpx;*/
+	/*margin-left: 25rpx;*/
 	flex-shrink: 0;
+}
+.comment-container .comment-btn.active{
+	color: #E60012;
 }

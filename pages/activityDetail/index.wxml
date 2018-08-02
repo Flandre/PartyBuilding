@@ -1,8 +1,9 @@
 <view class="container">
   <!--评论入口-->
   <view class="comment-container">
-    <input placeholder="" type="number" class="input" placeholder-class="input-ph"></input>
-    <image src="images/commentBtn.png" class="comment-btn" />
+    <input placeholder="发表感想..." type="number" class="input" placeholder-class="input-ph"></input>
+    <text class="comment-btn">发送</text>
+    <!--<image src="images/commentBtn.png" class="comment-btn" />-->
   </view>
   <!--笔记入口-->
   <image src="../../images/note-entry.png" class="note-entry" />
