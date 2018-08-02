@@ -1,0 +1,121 @@
+<view class="container">
+  <!--评论入口-->
+  <view class="comment-container">
+    <input placeholder="发表感想..." type="number" class="input" placeholder-class="input-ph"></input>
+    <text class="comment-btn">发送</text>
+    <!--<image src="images/commentBtn.png" class="comment-btn" />-->
+  </view>
+  <!--笔记入口-->
+  <image src="../../images/note-entry.png" class="note-entry" />
+  <!--总结入口-->
+  <image src="../../images/upload-entry.png" class="upload-entry" />
+  <!--头部面板-->
+  <view class="top-panel">
+    <text class="title">这是标题这是标题这是标题这是标题这是标题这是标题</text>
+    <text class="desc">这是描述是描述是描述是描述是描述是描述是描述是描述这是描述是描述是描述是描述是描述是描述是描述是描述</text>
+    <view class="bottom-info">
+      <view class="tag-list">
+        <text class="tag-item">这是标签</text>
+        <text class="tag-item">这是标签</text>
+      </view>
+      <text class="status status-1">未开始</text>
+    </view>
+    <view class="source">
+      <text class="info initiator">发起：赵日天</text>
+      <text class="info time">时间：2018-07-01 9:00 至 2018-08-01 18:00</text>
+      <text class="info area">地点：断罪小学门前</text>
+    </view>
+  </view>
+  <view class="panel impressions">
+    <text class="title">感想</text>
+    <view class="comment-list-empty">
+      <text class="empty-text">快来发表你的感想吧</text>
+    </view>
+    <!--view class="comment-list">
+      <view class="comment-item">
+        <image src="../../images/defaultAvatar.png" class="avatar"/>
+        <view class="comment-main">
+          <text class="user-name">张晓明</text>
+          <text class="comment-content">这是正文这是正文这是正文这是正文这是正文这是正文</text>
+          <view class="info-bar">
+            <text class="time">7-29 15:05</text>
+            <view class="source">
+              <view class="source-group">
+                <image src="../../images/replyIcon.png" class="icon" />
+              </view>
+              <view class="source-group">
+                <image src="../../images/likeIcon.png" class="icon" />
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="comment-item">
+        <image src="../../images/defaultAvatar.png" class="avatar"/>
+        <view class="comment-main">
+          <text class="user-name">张晓明</text>
+          <text class="comment-content">这是正文这是正文这是正文这是正文这是正文这是正文</text>
+          <view class="reply-list">
+            <view class="reply-item">
+              <text class="reply-name">李小刚: </text>
+              <text class="content">回复正文回复正文回复正文回复正文回复正文回复正文</text>
+            </view>
+            <view class="reply-item">
+              <text class="reply-name">李小刚: </text>
+              <text class="content">回复正文回复正文回复正文回复正文回复正文回复正文</text>
+            </view>
+          </view>
+          <view class="info-bar">
+            <text class="time">7-29 15:05</text>
+            <view class="source">
+              <view class="source-group">
+                <image src="../../images/replyIcon.png" class="icon" />
+                <text class="count">1</text>
+              </view>
+              <view class="source-group">
+                <image src="../../images/likeIcon.png" class="icon" />
+                <text class="count">3</text>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="comment-item">
+        <image src="../../images/defaultAvatar.png" class="avatar"/>
+        <view class="comment-main">
+          <text class="user-name">张晓明</text>
+          <text class="comment-content">这是正文这是正文这是正文这是正文这是正文这是正文</text>
+          <view class="reply-list">
+            <view class="reply-item">
+              <text class="reply-name">李小刚: </text>
+              <text class="content">回复正文回复正文回复正文回复正文回复正文回复正文</text>
+            </view>
+            <view class="reply-item">
+              <text class="reply-name">李小刚: </text>
+              <text class="content">回复正文回复正文回复正文回复正文回复正文回复正文</text>
+            </view>
+            <view class="reply-item">
+              <text class="more">共5条回复 ></text>
+            </view>
+          </view>
+          <view class="info-bar">
+            <text class="time">7-29 15:05</text>
+            <view class="source">
+              <view class="source-group">
+                <image src="../../images/replyIcon.png" class="icon" />
+                <text class="count">1</text>
+              </view>
+              <view class="source-group active">
+                <image src="../../images/likeIcon-active.png" class="icon" />
+                <text class="count">3</text>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="comment-item">
+        <text class="full">- 已无更多内容 -</text>
+      </view>
+    </view-->
+  </view>
+</view>

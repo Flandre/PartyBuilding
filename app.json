@@ -1,6 +1,6 @@
 {
   "pages": [
-    "pages/activityDetail/index",
+    "pages/activityStep/index",
     "pages/index/index",
     "pages/activity/index",
     "pages/study/index",
@@ -10,7 +10,8 @@
     "pages/search/index",
     "pages/searchResult/index",
     "pages/certification/index",
-    "pages/articleDetail/index"
+    "pages/articleDetail/index",
+    "pages/activityDetail/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

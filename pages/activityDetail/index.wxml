@@ -159,6 +159,9 @@
   <!--感想-->
   <view class="panel impressions">
     <text class="title">感想</text>
+    <!--view class="comment-list-empty">
+      <text class="empty-text">快来发表你的感想吧</text>
+    </view-->
     <view class="comment-list">
       <view class="comment-item">
         <image src="images/defaultAvatar.png" class="avatar"/>
