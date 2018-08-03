@@ -1,0 +1,63 @@
+<view class="container">
+  <view class="source-comment">
+    <view class="comment-item">
+      <image src="../../images/defaultAvatar.png" class="avatar"/>
+      <view class="comment-main">
+        <text class="user-name">张晓明</text>
+        <text class="comment-content">这是正文这是正文这是正文这是正文这是正文这是正文</text>
+        <view class="info-bar">
+          <text class="time">7-29 15:05</text>
+          <view class="source">
+            <view class="source-group">
+              <image src="../../images/replyIcon.png" class="icon" />
+            </view>
+            <view class="source-group">
+              <image src="../../images/likeIcon.png" class="icon" />
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="comment-list">
+    <view class="comment-item">
+      <image src="../../images/defaultAvatar.png" class="avatar"/>
+      <view class="comment-main">
+        <text class="user-name">张晓明</text>
+        <text class="comment-content">这是正文这是正文这是正文这是正文这是正文这是正文</text>
+        <view class="info-bar">
+          <text class="time">7-29 15:05</text>
+          <view class="source">
+            <view class="source-group">
+              <image src="../../images/replyIcon.png" class="icon" />
+            </view>
+            <view class="source-group">
+              <image src="../../images/likeIcon.png" class="icon" />
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="comment-item">
+      <image src="../../images/defaultAvatar.png" class="avatar"/>
+      <view class="comment-main">
+        <text class="user-name">张晓明</text>
+        <text class="comment-content">这是正文这是正文这是正文这是正文这是正文这是正文</text>
+        <view class="info-bar">
+          <text class="time">7-29 15:05</text>
+          <view class="source">
+            <view class="source-group">
+              <image src="../../images/replyIcon.png" class="icon" />
+            </view>
+            <view class="source-group">
+              <image src="../../images/likeIcon.png" class="icon" />
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="comment-item">
+      <text class="full">- 已无更多内容 -</text>
+    </view>
+  </view>
+</view>

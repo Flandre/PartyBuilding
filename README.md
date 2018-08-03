@@ -14,3 +14,4 @@ activityDetail: 活动详情页
 activityStep: 环节详情
 checkin: 签到页
 checkinList: 签到人数页
+commentList: 评论列表

@@ -164,7 +164,7 @@
     </view-->
     <view class="comment-list">
       <view class="comment-item">
-        <image src="images/defaultAvatar.png" class="avatar"/>
+        <image src="../../images/defaultAvatar.png" class="avatar"/>
         <view class="comment-main">
           <text class="user-name">张晓明</text>
           <text class="comment-content">这是正文这是正文这是正文这是正文这是正文这是正文</text>
@@ -182,7 +182,7 @@
         </view>
       </view>
       <view class="comment-item">
-        <image src="images/defaultAvatar.png" class="avatar"/>
+        <image src="../../images/defaultAvatar.png" class="avatar"/>
         <view class="comment-main">
           <text class="user-name">张晓明</text>
           <text class="comment-content">这是正文这是正文这是正文这是正文这是正文这是正文</text>
@@ -212,7 +212,7 @@
         </view>
       </view>
       <view class="comment-item">
-        <image src="images/defaultAvatar.png" class="avatar"/>
+        <image src="../../images/defaultAvatar.png" class="avatar"/>
         <view class="comment-main">
           <text class="user-name">张晓明</text>
           <text class="comment-content">这是正文这是正文这是正文这是正文这是正文这是正文</text>
