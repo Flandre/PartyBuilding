@@ -1,6 +1,6 @@
 {
   "pages": [
-    "pages/activityStep/index",
+    "pages/checkin/index",
     "pages/index/index",
     "pages/activity/index",
     "pages/study/index",
@@ -11,7 +11,8 @@
     "pages/searchResult/index",
     "pages/certification/index",
     "pages/articleDetail/index",
-    "pages/activityDetail/index"
+    "pages/activityDetail/index",
+    "pages/activityStep/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

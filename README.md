@@ -12,3 +12,4 @@ certification: 实名认证页
 articleDetail: 文章详情页
 activityDetail: 活动详情页
 activityStep: 环节详情
+checkin: 签到页

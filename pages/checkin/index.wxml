@@ -1,0 +1,22 @@
+<view class="container">
+  <view class="top-panel">
+    <view class="time-container">
+      <image src="images/clock.png" class="icon"/>
+      <text class="time">2018年7月25日</text>
+    </view>
+    <view class="map-container">
+      <text class="location-name">崇信县新窑镇镇政府</text>
+      <map
+        id="map"
+        scale="14"
+        controls="{{controls}}"
+        show-location
+        style="width: 690rpx; height: 240rpx;"
+      ></map>
+    </view>
+  </view>
+  <view class="checkin-btn">
+    <text>签到</text>
+    <text>15: 40</text>
+  </view>
+</view>

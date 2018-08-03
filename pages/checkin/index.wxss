@@ -1,0 +1,47 @@
+.top-panel {
+	background: #fff;
+	padding: 30rpx;
+}
+.top-panel .time-container{
+	padding-bottom: 30rpx;
+	border-bottom: 1rpx solid #dbdbdb;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.top-panel .time-container .icon{
+	display: inline-block;
+	width: 24rpx;
+	height: 25rpx;
+	margin-right: 10rpx;
+	flex-shrink: 0;
+}
+.top-panel .time-container .time{
+	color: #9B9B9B;
+	font-size: 24rpx;
+	line-height: 25rpx;
+}
+.top-panel .map-container{
+	display: flex;
+	flex-direction: column;
+	padding-top: 30rpx;
+}
+.top-panel .map-container .location-name{
+	font-size: 28rpx;
+	line-height: 1;
+	color: #333333;
+	margin-bottom: 30rpx;
+}
+.checkin-btn {
+	width: 240rpx;
+	height: 240rpx;
+	border-radius: 120rpx;
+	background: #E60012;
+	color: #fff;
+	margin: 120rpx auto 0;
+	font-size: 36rpx;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
