@@ -1,0 +1,71 @@
+page {
+	background: #fff;
+}
+.container {
+	padding: 0 30rpx;
+}
+.checkin-state {
+	display: flex;
+	justify-content: space-between;
+	color: #333;
+	font-size: 28rpx;
+	line-height: 28rpx;
+	padding-top: 30rpx;
+	padding-bottom: 30rpx;
+	border-bottom: 1rpx solid #dbdbdb;
+}
+.checkin-state .highlight{
+	color: #E60012;
+}
+.checkin-state .state{
+	display: flex;
+	align-items: center;
+}
+.checkin-state .state .icon{
+	width: 28rpx;
+	height: 28rpx;
+	margin-right: 10rpx;
+}
+.checkin-list .checkin-item{
+	padding: 30rpx 0;
+	display: flex;
+	align-items: flex-start;
+	border-bottom: 1px solid #dbdbdb;
+}
+.checkin-list .checkin-item .avatar{
+	width: 72rpx;
+	height: 72rpx;
+	border-radius: 36rpx;
+	margin-right: 30rpx;
+	flex-shrink: 0;
+}
+.checkin-list .checkin-item .info-box{
+	flex-grow: 1;
+}
+.checkin-list .checkin-item .info-box{
+	flex-grow: 1;
+}
+.checkin-list .checkin-item .info-box .name{
+	display: block;
+	font-size: 28rpx;
+	line-height: 1;
+	margin-bottom: 20rpx;
+}
+.checkin-list .checkin-item .info-box .info-item{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-bottom: 20rpx;
+	font-size: 24rpx;
+	line-height: 1;
+	color: #ABABAB;
+}
+.checkin-list .checkin-item .info-box .info-item:last-child{
+	margin-bottom: 0;
+}
+.checkin-list .checkin-item .info-box .info-item .icon{
+	width: 25rpx;
+	height: 25rpx;
+	margin-right: 10rpx;
+	flex-shrink: 0;
+}

@@ -1,0 +1,60 @@
+<view class="container">
+  <view class="checkin-state">
+    <view class="count">
+      <text>已有</text>
+      <text class="highlight">20</text>
+      <text>人签到</text>
+    </view>
+    <view class="state">
+      <image src="images/check_circle.png" class="icon"/>
+      <text>已签到</text>
+    </view>
+    <!--<view class="state">-->
+      <!--<text class="highlight">您还未签到 ></text>-->
+    <!--</view>-->
+  </view>
+  <view class="checkin-list">
+    <view class="checkin-item">
+      <image src="../../images/defaultAvatar.png" class="avatar"/>
+      <view class="info-box">
+        <text class="name">张晓明</text>
+        <view class="info-item">
+          <image src="images/timeIcon.png" class="icon"/>
+          <text>7-29 15:05</text>
+        </view>
+        <view class="info-item">
+          <image src="images/locationIcon.png" class="icon"/>
+          <text>崇信县新窑镇镇政府</text>
+        </view>
+      </view>
+    </view>
+    <view class="checkin-item">
+      <image src="../../images/defaultAvatar.png" class="avatar"/>
+      <view class="info-box">
+        <text class="name">张晓明</text>
+        <view class="info-item">
+          <image src="images/timeIcon.png" class="icon"/>
+          <text>7-29 15:05</text>
+        </view>
+        <view class="info-item">
+          <image src="images/locationIcon.png" class="icon"/>
+          <text>崇信县新窑镇镇政府</text>
+        </view>
+      </view>
+    </view>
+    <view class="checkin-item">
+      <image src="../../images/defaultAvatar.png" class="avatar"/>
+      <view class="info-box">
+        <text class="name">张晓明</text>
+        <view class="info-item">
+          <image src="images/timeIcon.png" class="icon"/>
+          <text>7-29 15:05</text>
+        </view>
+        <view class="info-item">
+          <image src="images/locationIcon.png" class="icon"/>
+          <text>崇信县新窑镇镇政府</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
