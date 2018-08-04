@@ -1,0 +1,95 @@
+.top-panel {
+	padding: 40rpx 30rpx 50rpx;
+	background: #FFFFFF;
+	margin-bottom: 20rpx;
+}
+.top-panel .message-panel {
+	border-bottom: 1rpx solid #dbdbdb;
+	margin-bottom: 40rpx;
+}
+.top-panel .message-panel .title{
+	color: #333;
+	font-size: 36rpx;
+	line-height: 58rpx;
+	margin-bottom: 20rpx;
+}
+.top-panel .message-panel .info{
+	color: #9B9B9B;
+	font-size: 24rpx;
+	line-height: 1;
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 20rpx;
+}
+.top-panel .message-panel .info{
+	color: #9B9B9B;
+	font-size: 24rpx;
+	line-height: 1;
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 20rpx;
+}
+.top-panel .p{
+	display: block;
+	color: #333;
+	font-size: 28rpx;
+	line-height: 46rpx;
+	margin-bottom: 30rpx;
+}
+.top-panel .p:last-child{
+	margin-bottom: 0;
+}
+
+.panel {
+	padding: 30rpx;
+	background: #fff;
+	margin-bottom: 140rpx;
+}
+.panel .title{
+	display: block;
+	color: #333;
+	font-size: 28rpx;
+	line-height: 1;
+	margin-bottom: 30rpx;
+}
+.attachment-item{
+	overflow: hidden;
+	margin-bottom: 30rpx;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.attachment-item:last-child{
+	margin-bottom: 0;
+}
+.attachment-item .icon{
+	width: 28rpx;
+	height: 32rpx;
+	display: block;
+	margin-right: 20rpx;
+	flex-shrink: 0;
+}
+.attachment-item .filename{
+	display: block;
+	flex-grow: 1;
+	color: #1F3374;
+	font-size: 28rpx;
+	line-height: 32rpx;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.bottom-active {
+	position: fixed;
+	bottom: 0;
+	z-index: 1070;
+	background: #fff;
+	box-sizing: border-box;
+	padding: 20rpx 40rpx;
+	width: 100%;
+}
+.bottom-active .submit-btn{
+	background: #E60012;
+	color: #fff;
+}
+

@@ -1,0 +1,27 @@
+.message-panel {
+	padding: 30rpx;
+	background: #FFFFFF;
+	margin-top: 20rpx;
+}
+.message-panel .top-info{
+	color: #9B9B9B;
+	font-size: 24rpx;
+	line-height: 1;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20rpx;
+}
+.message-panel .title{
+	color: #333;
+	font-size: 36rpx;
+	line-height: 58rpx;
+	margin-bottom: 20rpx;
+}
+.message-panel .active-info{
+	color: #9B9B9B;
+	font-size: 26rpx;
+	text-align: right;
+}
+.message-panel .active-info.active{
+	color: #E60012;
+}

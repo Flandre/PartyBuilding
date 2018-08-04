@@ -1,3 +1,34 @@
 <view class="container">
-  这是通知页面
+  <view class="message-panel">
+    <view class="top-info">
+      <text class="name">村党支部</text>
+      <text class="time">今天</text>
+    </view>
+    <view class="title">标题标题标题标题标题标题标题</view>
+    <view class="active-info active">未回执</view>
+  </view>
+  <view class="message-panel">
+    <view class="top-info">
+      <text class="name">村党支部</text>
+      <text class="time">今天</text>
+    </view>
+    <view class="title">标题标题标题标题标题标题标题</view>
+    <view class="active-info">未回执</view>
+  </view>
+  <view class="message-panel">
+    <view class="top-info">
+      <text class="name">村党支部</text>
+      <text class="time">今天</text>
+    </view>
+    <view class="title">标题标题标题标题标题标题标题</view>
+    <view class="active-info">未回执</view>
+  </view>
+  <view class="message-panel">
+    <view class="top-info">
+      <text class="name">村党支部</text>
+      <text class="time">今天</text>
+    </view>
+    <view class="title">标题标题标题标题标题标题标题</view>
+    <view class="active-info">未回执</view>
+  </view>
 </view>

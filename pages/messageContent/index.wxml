@@ -1,0 +1,40 @@
+<view class="container">
+  <view class="top-panel">
+    <view class="message-panel">
+      <view class="title">标题标题标题标题标题标题标题</view>
+      <view class="info">
+        <text class="name">村党支部</text>
+        <text class="time">今天</text>
+      </view>
+    </view>
+    <text class="p">文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字</text>
+    <text class="p">文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字</text>
+    <text class="p">文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字</text>
+  </view>
+
+  <!--附件-->
+  <view class="panel attachment">
+    <text class="title">附件</text>
+    <view class="attachment-item">
+      <image class="icon" src="../../images/file-pdf-o.png"/>
+      <text class="filename">这是文件这是文件这是文件这是文件这是文件.pdf</text>
+    </view>
+    <view class="attachment-item">
+      <image class="icon" src="../../images/file-word-o.png"/>
+      <text class="filename">这是文件这是文件这是文件这是文件这是文件.doc</text>
+    </view>
+    <view class="attachment-item">
+      <image class="icon" src="../../images/file-excel-o.png"/>
+      <text class="filename">这是文件这是文件这是文件这是文件这是文件.xls</text>
+    </view>
+    <view class="attachment-item">
+      <image class="icon" src="../../images/file-image-o.png"/>
+      <text class="filename">这是文件这是文件这是文件这是文件这是文件.png</text>
+    </view>
+  </view>
+
+  <view class="bottom-active">
+
+    <button class="submit-btn">发送回执</button>
+  </view>
+</view>

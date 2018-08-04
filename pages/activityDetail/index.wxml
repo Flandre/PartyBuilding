@@ -49,19 +49,19 @@
   <view class="panel attachment">
     <text class="title">附件</text>
     <view class="attachment-item">
-      <image class="icon" src="images/file-pdf-o.png"/>
+      <image class="icon" src="../../images/file-pdf-o.png"/>
       <text class="filename">这是文件这是文件这是文件这是文件这是文件.pdf</text>
     </view>
     <view class="attachment-item">
-      <image class="icon" src="images/file-word-o.png"/>
+      <image class="icon" src="../../images/file-word-o.png"/>
       <text class="filename">这是文件这是文件这是文件这是文件这是文件.doc</text>
     </view>
     <view class="attachment-item">
-      <image class="icon" src="images/file-excel-o.png"/>
+      <image class="icon" src="../../images/file-excel-o.png"/>
       <text class="filename">这是文件这是文件这是文件这是文件这是文件.xls</text>
     </view>
     <view class="attachment-item">
-      <image class="icon" src="images/file-image-o.png"/>
+      <image class="icon" src="../../images/file-image-o.png"/>
       <text class="filename">这是文件这是文件这是文件这是文件这是文件.png</text>
     </view>
   </view>
