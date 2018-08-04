@@ -1,0 +1,68 @@
+<view class="container">
+  <view class="user-info">
+    <image src="../../images/defaultAvatar.png" class="avatar" />
+    <text class="name">张晓明</text>
+  </view>
+
+  <text class="submit-success">您已提交评价</text>
+  <!--答题区域-->
+  <view class="question-list">
+    <view class="question-item ridio-type">
+      <view class="title">
+        <view class="main">
+          <text>1.题目题目题目题目题目题目题目</text>
+          <text class="highlight">(5分)</text>
+        </view>
+        <image src="images/rightIcon.png" class="judge"/>
+      </view>
+      <radio-group>
+        <label class="radio judge-label">
+          <radio value="1" checked="" color=""/>答案1
+        </label>
+        <label class="radio">
+          <radio value="2" checked="" color=""/>答案2
+        </label>
+        <label class="radio">
+          <radio value="3" checked="" color=""/>答案3
+        </label>
+        <label class="radio">
+          <radio value="4" checked="" color=""/>答案4
+        </label>
+      </radio-group>
+    </view>
+    <view class="question-item checkbox-type">
+      <view class="title">
+        <view class="main">
+          <text>2.题目题目题目题目题目题目题目</text>
+          <text class="highlight">(5分)</text>
+        </view>
+        <image src="images/wrongIcon.png" class="judge"/>
+      </view>
+      <checkbox-group>
+        <label class="checkbox">
+          <checkbox value="1" checked="" color=""/>答案1
+        </label>
+        <label class="checkbox">
+          <checkbox value="2" checked="" color=""/>答案2
+        </label>
+        <label class="checkbox">
+          <checkbox value="3" checked="" color=""/>答案3
+        </label>
+        <label class="checkbox">
+          <checkbox value="4" checked="" color=""/>答案4
+        </label>
+      </checkbox-group>
+    </view>
+    <view class="question-item textarea-type">
+      <view class="title">
+        <view class="main">
+          <text>3.题目题目题目题目题目题目题目</text>
+          <text class="highlight">(5分)</text>
+        </view>
+        <image src="images/rightIcon.png" class="judge"/>
+      </view>
+      <textarea bindblur="bindTextAreaBlur" auto-height placeholder="自动变高" />
+    </view>
+    <button class="submit-btn">提交</button>
+  </view>
+</view>
