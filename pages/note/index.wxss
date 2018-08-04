@@ -1,0 +1,24 @@
+.textarea-container {
+	box-sizing: border-box;
+	padding: 30rpx;
+	background: #fff;
+	font-size: 28rpx;
+	line-height: 44rpx;
+}
+.textarea-container.title {
+	font-size: 36rpx;
+	border-bottom: 1rpx solid #dbdbdb;
+}
+.textarea-container.content {
+	height: 500rpx;
+}
+.textarea-container textarea{
+	display: block;
+}
+.submit-container {
+	padding: 80rpx 40rpx;
+}
+.submit-container .submit-btn{
+	background: #E60012;
+	color: #fff;
+}

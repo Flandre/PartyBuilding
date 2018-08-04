@@ -1,0 +1,11 @@
+<view class="container">
+  <view class="textarea-container title">
+    <textarea bindblur="bindTextAreaBlur" auto-height placeholder="标题" />
+  </view>
+  <view class="textarea-container content">
+    <textarea bindblur="bindTextAreaBlur" auto-height placeholder="内容" />
+  </view>
+  <view class="submit-container">
+    <button class="submit-btn">保存</button>
+  </view>
+</view>

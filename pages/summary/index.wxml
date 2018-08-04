@@ -1,0 +1,22 @@
+<view class="container">
+  <view class="textarea-container">
+    <textarea bindblur="bindTextAreaBlur" auto-height placeholder="总结内容…（1000字以内）" />
+  </view>
+  <view class="upload-panel">
+    <view class="title">添加照片/视频</view>
+    <view class="upload-list">
+      <view class="upload-item">
+        <image src="images/add.png" class="add"/>
+      </view>
+      <view class="upload-item">
+        <image src="images/delete.png" class="delete"/>
+      </view>
+      <view class="upload-item">
+        <image src="images/delete.png" class="delete"/>
+      </view>
+    </view>
+  </view>
+  <view class="submit-container">
+    <button class="submit-btn">提交</button>
+  </view>
+</view>

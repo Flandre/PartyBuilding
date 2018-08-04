@@ -1,6 +1,6 @@
 {
   "pages": [
-    "pages/evaluateForm/index",
+    "pages/note/index",
     "pages/index/index",
     "pages/activity/index",
     "pages/study/index",
@@ -16,7 +16,9 @@
     "pages/checkin/index",
     "pages/checkinList/index",
     "pages/commentList/index",
-    "pages/researchDetail/index"
+    "pages/researchDetail/index",
+    "pages/summary/index",
+    "pages/evaluateForm/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

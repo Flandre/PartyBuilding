@@ -1,0 +1,52 @@
+.textarea-container {
+	box-sizing: border-box;
+	height: 400rpx;
+	padding: 30rpx;
+	background: #fff;
+	margin-bottom: 20rpx;
+	font-size: 28rpx;
+	line-height: 44rpx;
+}
+.textarea-container textarea{
+	display: block;
+}
+.upload-panel {
+	padding: 30rpx;
+	padding-bottom: 0;
+	background: #fff;
+}
+.upload-panel .title{
+	font-size: 28rpx;
+	line-height: 1;
+	margin-bottom: 30rpx;
+}
+.upload-panel .upload-list {
+	overflow: hidden;
+}
+.upload-panel .upload-list .upload-item{
+	width: 150rpx;
+	height: 150rpx;
+	margin-right: 30rpx;
+	margin-bottom: 30rpx;
+	float: left;
+	background: #F4F4F4;
+	position: relative;
+}
+.upload-panel .upload-list .upload-item .add{
+	width: 150rpx;
+	height: 150rpx;
+}
+.upload-panel .upload-list .upload-item .delete{
+	width: 20rpx;
+	height: 20rpx;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.submit-container {
+	padding: 80rpx 40rpx;
+}
+.submit-container .submit-btn{
+	background: #E60012;
+	color: #fff;
+}
