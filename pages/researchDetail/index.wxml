@@ -1,0 +1,177 @@
+<view class="container">
+  <!--顶部内容-->
+  <view class="top-panel">
+    <text class="title">这是标题这是标题这是标题</text>
+    <text class="desc">这是描述这是描述这是描述这是描述这是描述这是描述这是描述这是描述这是描述</text>
+    <view class="source-container">
+      <text class="time">结束时间：2018-07-30 18:00</text>
+      <view class="count">
+        <text>已有</text>
+        <text class="highlight">20</text>
+        <text>人提交</text>
+      </view>
+    </view>
+    <view class="exam-result">
+      <text>得分：</text>
+      <text class="highlight">5</text>
+      <text>/10</text>
+      <text class="mr">答对1题，答错1题</text>
+    </view>
+  </view>
+  <!--切换tab-->
+   <!--view class="tab-container">
+    <view class="tab-item.active">自我评价</view>
+    <view class="tab-item">民主互评</view>
+  </view-->
+  <!--text class="submit-success">您已提交评价</text-->
+  <!--答题区域-->
+  <!--view class="question-list">
+    <view class="question-item ridio-type">
+      <view class="title">
+        <view class="main">
+          <text>1.题目题目题目题目题目题目题目</text>
+          <text class="highlight">(5分)</text>
+        </view>
+        <image src="images/rightIcon.png" class="judge"/>
+      </view>
+      <radio-group>
+        <view class="judge-container">
+          <label class="radio judge-label">
+            <radio value="1" checked="" color=""/>答案1
+          </label>
+          <image src="images/answerIcon.png" class=" "/>
+        </view>
+        <label class="radio">
+          <radio value="2" checked="" color=""/>答案2
+        </label>
+        <label class="radio">
+          <radio value="3" checked="" color=""/>答案3
+        </label>
+        <label class="radio">
+          <radio value="4" checked="" color=""/>答案4
+        </label>
+      </radio-group>
+    </view>
+    <view class="question-item checkbox-type">
+      <view class="title">
+        <view class="main">
+          <text>2.题目题目题目题目题目题目题目</text>
+          <text class="highlight">(5分)</text>
+        </view>
+        <image src="images/wrongIcon.png" class="judge"/>
+      </view>
+      <checkbox-group>
+        <label class="checkbox">
+          <checkbox value="1" checked="" color=""/>答案1
+        </label>
+        <label class="checkbox">
+          <checkbox value="2" checked="" color=""/>答案2
+        </label>
+        <label class="checkbox">
+          <checkbox value="3" checked="" color=""/>答案3
+        </label>
+        <label class="checkbox">
+          <checkbox value="4" checked="" color=""/>答案4
+        </label>
+      </checkbox-group>
+    </view>
+    <view class="question-item textarea-type">
+      <view class="title">
+        <view class="main">
+          <text>3.题目题目题目题目题目题目题目</text>
+          <text class="highlight">(5分)</text>
+        </view>
+        <image src="images/rightIcon.png" class="judge"/>
+      </view>
+      <textarea bindblur="bindTextAreaBlur" auto-height placeholder="自动变高" />
+    </view>
+    <button class="submit-btn">提交</button>
+  </view-->
+  <!--互评列表-->
+  <!--view class="user-list">
+    <view class="user-item">
+      <view class="user-info">
+        <image src="../../images/defaultAvatar.png" class="avatar" />
+        <text class="name">张晓明</text>
+      </view>
+      <view class="status success">
+        已评价
+      </view>
+    </view>
+    <view class="user-item">
+      <view class="user-info">
+        <image src="../../images/defaultAvatar.png" class="avatar" />
+        <text class="name">张晓明</text>
+      </view>
+      <view class="status">
+        未评价
+      </view>
+    </view>
+    <view class="user-item">
+      <view class="user-info">
+        <image src="../../images/defaultAvatar.png" class="avatar" />
+        <text class="name">张晓明</text>
+      </view>
+      <view class="status">
+        未评价
+      </view>
+    </view>
+    <view class="user-item">
+      <view class="user-info">
+        <image src="../../images/defaultAvatar.png" class="avatar" />
+        <text class="name">张晓明</text>
+      </view>
+      <view class="status">
+        未评价
+      </view>
+    </view>
+  </view-->
+  <!--投票结果-->
+  <!--view class="vote-result">
+    <text class="vote-title">请从下列人选中投票</text>
+    <view class="vote-item">
+      <text class="vote-name">投票名投票名投票名投票名投票名</text>
+      <view class="vote-info">
+        <view class="vote-select-container">
+          <view class="vote-progress">
+            <view class="vote-progress-main" style="width: 20%"></view>
+          </view>
+        </view>
+        <view class="vote-source">
+          <text class="count">2票</text>
+          <text class="percentage">40.0%</text>
+        </view>
+      </view>
+    </view>
+    <view class="vote-item">
+      <text class="vote-name">投票名投票名投票名投票名投票名</text>
+      <view class="vote-info">
+        <view class="vote-select-container">
+          <view class="vote-progress">
+            <view class="vote-progress-main" style="width: 20%"></view>
+          </view>
+          <image src="images/vote-selsct.png" class="vote-select"/>
+        </view>
+        <view class="vote-source">
+          <text class="count">2票</text>
+          <text class="percentage">40.0%</text>
+        </view>
+      </view>
+    </view>
+    <view class="vote-item">
+      <text class="vote-name">投票名投票名投票名投票名投票名</text>
+      <view class="vote-info">
+        <view class="vote-select-container">
+          <view class="vote-progress">
+            <view class="vote-progress-main" style="width: 20%"></view>
+          </view>
+          <image src="images/vote-selsct.png" class="vote-select"/>
+        </view>
+        <view class="vote-source">
+          <text class="count">2票</text>
+          <text class="percentage">40.0%</text>
+        </view>
+      </view>
+    </view>
+  </view-->
+</view>
