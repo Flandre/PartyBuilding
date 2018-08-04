@@ -34,7 +34,6 @@
   </view>
 
   <view class="bottom-active">
-
     <button class="submit-btn">发送回执</button>
   </view>
 </view>
