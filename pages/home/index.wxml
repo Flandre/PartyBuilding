@@ -13,6 +13,10 @@
   </view>
   <view class="link-group">
     <view class="link-item">
+      <text>我的学习</text>
+      <image src="images/arrow-right.png" class="arrow-right"/>
+    </view>>
+    <view class="link-item">
       <text>我的笔记</text>
       <image src="images/arrow-right.png" class="arrow-right"/>
     </view>
