@@ -19,7 +19,8 @@
     "pages/summary/index",
     "pages/evaluateForm/index",
     "pages/note/index",
-    "pages/messageContent/index"
+    "pages/messageContent/index",
+    "pages/studyDetail/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

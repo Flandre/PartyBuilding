@@ -1,0 +1,86 @@
+.top-video {
+	width: 750rpx;
+	height: 422rpx;
+	background: #000;
+}
+.top-panel {
+	padding: 30rpx;
+	background: #fff;
+	color: #333;
+	margin-bottom: 20rpx;
+}
+.top-panel .title{
+	font-size: 32rpx;
+	line-height: 32rpx;
+	margin-bottom: 30rpx;
+}
+.top-panel .desc{
+	font-size: 24rpx;
+	line-height: 36rpx;
+}
+.top-panel .cutline{
+	height: 1rpx;
+	background: #dbdbdb;
+	margin-top: 30rpx;
+	margin-bottom: 30rpx;
+}
+.top-panel .exam-btn{
+	background: #E60012;
+	color: #fff;
+}
+.top-panel .exam-desc{
+	font-size: 24rpx;
+	line-height: 24rpx;
+	margin-top: 30rpx;
+	color: #9B9B9B;
+	text-align: center;
+}
+.study-container {
+	background: #fff;
+}
+.study-container .title-container{
+	padding: 30rpx;
+	font-size: 28rpx;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.study-container .title-container .title{
+	color: #333;
+}
+.study-container .title-container .more{
+	color: #9B9B9B;
+}
+.study-container .title-container .more .arrow-right {
+	width: 12rpx;
+	height: 21rpx;
+	margin-left: 10rpx;
+}
+.study-container .study-list {
+	overflow: hidden;
+	box-sizing: border-box;
+	padding: 0 5rpx;
+}
+.study-container .study-list .list-item{
+	width: 50%;
+	box-sizing: border-box;
+	padding: 0 25rpx;
+	float: left;
+}
+.study-container .study-list .list-item .study-thumb{
+	width: 320rpx;
+	height: 180rpx;
+	margin-bottom: 20rpx;
+	display:block;
+}
+.study-container .study-list .list-item .title{
+	font-size: 24rpx;
+	line-height: 32rpx;
+	height: 64rpx;
+	overflow: hidden;
+	margin-bottom: 30rpx;
+	display:-webkit-box;
+	-webkit-line-clamp:2;
+	text-overflow:ellipsis;
+	-webkit-box-orient:vertical;
+}

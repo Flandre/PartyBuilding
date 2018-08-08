@@ -20,3 +20,4 @@ evaluateForm: 互评表单
 summary: 提交总结
 note: 添加笔记
 messageContent: 通知内容
+studyDetail: 学习详情页

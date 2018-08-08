@@ -1,0 +1,45 @@
+<view class="container">
+  <video src="http://www.w3school.com.cn/i/movie.ogg" controls class="top-video"></video>
+  <view class="top-panel">
+    <view class="title">这是标题这是标题这是标题这是标题</view>
+    <view class="desc">这是描述这是描述这是描述这是描述这是描述这是描述这是描述这是描述这是描述这是描述这是描述这是描述这是描述这是描述这是描述这是描述这是描述这是描述这是描述这是描述这是描述这是描述这是描述这是描述这是描述这是描述这是描述这是描述这是描述这是描述这是描述这是描述这是描述这是描述这是描述这是描述这是描述这是描述这是描述这</view>
+    <view class="cutline"></view>
+    <button class="exam-btn">开始测评</button>
+    <view class="exam-desc">描述描述描述描述描述描述描述描述描述</view>
+  </view>
+  <view class="study-container">
+    <view class="title-container">
+      <view class="title">最新课程</view>
+      <view class="more">
+        <text>更多</text>
+        <image src="images/arrow-right-more.png" class="arrow-right" />
+      </view>
+    </view>
+    <view class="study-list">
+      <view class="list-item">
+        <image src="imageDemo/banner.png" class="study-thumb" />
+        <view class="title">
+          这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题
+        </view>
+      </view>
+      <view class="list-item">
+        <image src="imageDemo/banner.png" class="study-thumb" />
+        <view class="title">
+          这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题
+        </view>
+      </view>
+      <view class="list-item">
+        <image src="imageDemo/banner.png" class="study-thumb" />
+        <view class="title">
+          这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题
+        </view>
+      </view>
+      <view class="list-item">
+        <image src="imageDemo/banner.png" class="study-thumb" />
+        <view class="title">
+          这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
