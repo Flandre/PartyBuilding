@@ -1,3 +1,99 @@
 <view class="container">
-  这是学习页面
+  <view class="top-panel">
+    <view class="top-panel-bg"></view>
+    <view class="title-bar">
+      <view class="title">正在学习</view>
+      <view class="my-study">
+        <text>我的学习</text>
+        <image src="images/arrow-right.png" class="arrow-right" />
+      </view>
+    </view>
+    <swiper
+      current="1"
+      class="swiper"
+      previous-margin="80rpx"
+      next-margin="80rpx"
+    >
+      <swiper-item class="swiper-item">
+        <view class="banner-container">
+          <image src="imageDemo/banner.png" class="banner"/>
+        </view>
+        <view class="info-container">
+          <view class="title">这是标题这是标题这是标题这是标题</view>
+          <view class="progress-container">
+            <view class="progress-main"></view>
+          </view>
+          <view class="source-container">
+            <view class="time">学时：5:00/12:12</view>
+            <view class="score">得分：0/100</view>
+          </view>
+        </view>
+      </swiper-item>
+      <swiper-item class="swiper-item">
+        <view class="banner-container">
+          <image src="imageDemo/banner.png" class="banner"/>
+        </view>
+        <view class="info-container">
+          <view class="title">这是标题这是标题这是标题这是标题</view>
+          <view class="progress-container">
+            <view class="progress-main" style="width: 50%"></view>
+          </view>
+          <view class="source-container">
+            <view class="time">学时：5:00/12:12</view>
+            <view class="score">得分：0/100</view>
+          </view>
+        </view>
+      </swiper-item>
+      <swiper-item class="swiper-item">
+        <view class="banner-container">
+          <image src="imageDemo/banner.png" class="banner"/>
+        </view>
+        <view class="info-container">
+          <view class="title">这是标题这是标题这是标题这是标题</view>
+          <view class="progress-container">
+            <view class="progress-main" style="width: 50%"></view>
+          </view>
+          <view class="source-container">
+            <view class="time">学时：5:00/12:12</view>
+            <view class="score">得分：0/100</view>
+          </view>
+        </view>
+      </swiper-item>
+    </swiper>
+  </view>
+  <view class="study-container">
+    <view class="title-container">
+      <view class="title">最新课程</view>
+      <view class="more">
+        <text>更多</text>
+        <image src="images/arrow-right-more.png" class="arrow-right" />
+      </view>
+    </view>
+    <view class="study-list">
+      <view class="list-item">
+        <image src="imageDemo/banner.png" class="study-thumb" />
+        <view class="title">
+          这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题
+        </view>
+      </view>
+      <view class="list-item">
+        <image src="imageDemo/banner.png" class="study-thumb" />
+        <view class="title">
+          这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题
+        </view>
+      </view>
+      <view class="list-item">
+        <image src="imageDemo/banner.png" class="study-thumb" />
+        <view class="title">
+          这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题
+        </view>
+      </view>
+      <view class="list-item">
+        <image src="imageDemo/banner.png" class="study-thumb" />
+        <view class="title">
+          这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题这是标题
+        </view>
+      </view>
+    </view>
+  </view>
 </view>
